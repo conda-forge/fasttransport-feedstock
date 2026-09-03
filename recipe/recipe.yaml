@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.1"
+  version: "0.0.4"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/fasttransport/fasttransport-${{ version }}.tar.gz
-  sha256: c88fc989fb333efb4d3221379178600bac2f0c7156ad6f8d614ba7eafad39e3a
+  sha256: 4bfe0567c926f95f9449b14d58634d34dca5139d75671ade08ebb8bbdf2ec942
 
 build:
   number: 0
